@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-10-12T07:35:37 IST" name="Default suite" finished-at="2021-10-12T07:35:49 IST" duration-ms="12061">
+    <groups>
+    </groups>
+    <test started-at="2021-10-12T07:35:37 IST" name="Default test" finished-at="2021-10-12T07:35:49 IST" duration-ms="12061">
+      <class name="phptravels.Runner">
+        <test-method is-config="true" signature="precondition()[pri:0, instance:phptravels.Runner@3cebbb30]" started-at="2021-10-12T07:35:37 IST" name="precondition" finished-at="2021-10-12T07:35:39 IST" duration-ms="2631" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method signature="openurl()[pri:1, instance:phptravels.Runner@3cebbb30]" started-at="2021-10-12T07:35:39 IST" name="openurl" finished-at="2021-10-12T07:35:45 IST" duration-ms="5458" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openurl -->
+        <test-method signature="clicklogin()[pri:2, instance:phptravels.Runner@3cebbb30]" started-at="2021-10-12T07:35:45 IST" name="clicklogin" finished-at="2021-10-12T07:35:46 IST" depends-on-methods="phptravels.Runner.openurl" duration-ms="680" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clicklogin -->
+        <test-method signature="enterlogindetails()[pri:3, instance:phptravels.Runner@3cebbb30]" started-at="2021-10-12T07:35:46 IST" name="enterlogindetails" finished-at="2021-10-12T07:35:49 IST" depends-on-methods="phptravels.Runner.clicklogin" duration-ms="2992" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterlogindetails -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:phptravels.Runner@3cebbb30]" started-at="2021-10-12T07:35:49 IST" name="closebrowser" finished-at="2021-10-12T07:35:49 IST" duration-ms="200" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- phptravels.Runner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
